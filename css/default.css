@@ -119,9 +119,10 @@
 		max-width:960px;
 		width:100%;
 		margin:0 auto;
-		font-size:1.3em;
-		text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-		color:white;	
+		font-size:1.1em;
+		/*text-shadow:1px 1px 1px rgba(0,0,0,0.5);*/
+		
+		/*color:white;	*/
 	}
 	.hidden{display:none;}
 	.box-main:after,
@@ -147,7 +148,7 @@
 	.fullWidth img{width:100%;}
 	.row{
 		width:100%;
-		background:#FF7900;
+		background: #eeeeee;
 		padding:2.857em 0;
 	}
 	.row h1{
@@ -157,6 +158,19 @@
 		content:"";
 		display:block;
 		clear:both;
+	}
+	.orange{
+		background:#FF7900;
+		color: #eeeeee;
+	}
+	.white{
+		
+		color:darkdarkgrey;
+	}
+	.white h1{
+		/*color:darkdarkgrey;*/
+		
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
 	}
 	.grey{
 		background:#7e8794;
