@@ -2,11 +2,23 @@
 body {
 	margin: 0;
   font-weight: normal;
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  /*-webkit-font-smoothing: antialiased;*/
 }
 
 .container {
+
+/*font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;*/
+/*font-family: ‘Arial Black’, Gadget, sans-serif;*/
+/*font-family: Verdana, Geneva, sans-serif;*/
+/*font-family: ‘Lucida Console’, Monaco, monospace;*/
+/*font-family: "Lato", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
 	max-width: 960px;
-	margin: 0 auto;
+	margin: auto 15%;
+}
+
+a {
+  color: red;
 }
 
 section.module:last-child {
@@ -28,8 +40,10 @@ section.module.p {
 section.module p:last-child {
   margin-bottom: 0;
 }
+
+/* Section - Text Content */
 section.module.content {
-  background-color: #A8A8A8;
+  background-color: white;
   padding: 60px 50px;
 }
 section.module.content h2 {
@@ -37,7 +51,7 @@ section.module.content h2 {
   text-align: center;
 }
 
-/* Parallax */
+/* Section - Visual Contact */
 
 section.module.parallax {
   font-weight: normal;
@@ -49,7 +63,6 @@ section.module.parallax {
   padding: 5%;
 }
 section.module.parallax h1 {
-  color: white;
   font-weight: normal;
   position: relative;
   vertical-align: center;
@@ -65,9 +78,13 @@ section.module.parallax h2 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../img/Northern Lights.jpg");
+    color: white;
+
+  background-image: url("../img/ireland.jpg");
 }
 section.module.parallax-2 {
+    color: white;
+
   background-image: url("../img/paris.jpg");
 }
 section.module.parallax-3 {
