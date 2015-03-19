@@ -13,17 +13,12 @@ html {
 	src: url("../fonts/Bebas/BebasNeue Book.otf");
 }
 
-.title {
+#welcome {
 	font-size: 8em;
 	color: white;
 	position: fixed;
-}
-
-.bottom {
-	bottom: 20px;
-}
-
-.right {
+	margin-bottom: 20px;
+	/*bottom: 20px;*/
 	right: 40px;
 }
 
