@@ -4,4 +4,21 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+
 }
+
+.title {
+	font-size: 8em;
+	color: white;
+	position: fixed;
+}
+
+.bottom {
+	bottom: 10px;
+}
+
+.right {
+	right: 20px;
+}
+
