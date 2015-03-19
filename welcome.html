@@ -5,30 +5,10 @@
 
 	<link rel="stylesheet" type="text/css" href="css/welcome.css" media="all" />
 
-	<script>
-		function dropWelcomeText() {
-
-			var elem = document.getElementById("welcome")
-			var vPos = 50
-
-			function frame() {
-				vPos += 2
-				elem.style.top = vPos + 'px'
-
-				var rect = elem.getBoundingClientRect()
-				var bottom = rect.bottom
-				var height = window.innerHeight
-
-				if (height - bottom < 20)
-					clearInterval(id)
-			}
-
-			var id = setInterval(frame, 0.25)
-
-		}
-	</script>
 </head>
-<body onload="dropWelcomeText()">
+<body onload="tweenaway()">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+	<script src="js/main.js"></script>
 	<div id="welcome">Welcome</div>
 </body>
 </html>

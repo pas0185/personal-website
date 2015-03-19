@@ -14,11 +14,11 @@ html {
 }
 
 #welcome {
-	font-size: 8em;
+	font-size: 10em;
 	color: white;
 	position: fixed;
-	margin-bottom: 20px;
-	/*bottom: 20px;*/
+	/*margin-bottom: 20px;*/
+	bottom: 1000px;
 	right: 40px;
 }
 
