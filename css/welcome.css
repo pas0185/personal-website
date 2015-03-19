@@ -5,7 +5,12 @@ html {
   -o-background-size: cover;
   background-size: cover;
 
+  font-family: BebasNeue;
+}
 
+@font-face {
+	font-family: BebasNeue;
+	src: url("../fonts/Bebas/BebasNeue Book.otf");
 }
 
 .title {
@@ -15,10 +20,10 @@ html {
 }
 
 .bottom {
-	bottom: 10px;
+	bottom: 20px;
 }
 
 .right {
-	right: 20px;
+	right: 40px;
 }
 
