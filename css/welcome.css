@@ -1,17 +1,18 @@
 html { 
-  background: url(../img/majestic-winston-grayscale.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
   font-family: BebasNeue;
 }
 
+body {
+	margin: 0;
+}
 @font-face {
 	font-family: BebasNeue;
 	src: url("../fonts/Bebas/BebasNeue Book.otf");
 }
+
+/*****************/
+/**  FRONT PAGE **/
+/*****************/
 
 #welcome {
 	font-size: 10em;
@@ -33,3 +34,23 @@ html {
 	margin-right: 15px;
 	opacity: 0;
 }
+
+/***********/
+/**  PANE **/
+/***********/
+
+#pane-1 {
+	height: 100%;
+	height: 100vh;
+	background: black;
+	background-image: url(../img/majestic-winston-grayscale.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	display: block;
+}
+
+#pane-2 {
+
+}
+
