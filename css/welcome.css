@@ -17,13 +17,12 @@ html {
 	font-size: 10em;
 	color: white;
 	position: fixed;
-	/*margin-bottom: 20px;*/
-	bottom: 1000px;
-	right: 40px;
+	bottom: 20px;
+	right: 1500px;
 }
 
 #social {
-	padding: 25px;
+	padding: 10px;
 	float: right;
 }
 
@@ -31,5 +30,6 @@ html {
 	height: 50px;
 	margin: 10px;
 	margin-left: auto;
-	margin-right: 0;
+	margin-right: 15px;
+	opacity: 0;
 }

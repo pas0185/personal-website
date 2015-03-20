@@ -1,25 +1,7 @@
 function tweenaway() {
-	var elem = document.getElementById("welcome")
-	TweenMax.to(elem, 2, {bottom:20, ease: Elastic.easeOut})
+	var welcome = document.getElementById("welcome")
+	TweenMax.to(welcome, 2, {right:40, ease: Elastic.easeOut, delay:0.5})
+
+	TweenMax.staggerTo(".icon", 2, {opacity:1, x:0, delay:2.5})
+
 }
-
-// function dropWelcomeText() {
-
-// 	var elem = document.getElementById("welcome")
-// 	var vPos = 50
-
-// 	function frame() {
-// 		vPos += 2
-// 		elem.style.top = vPos + 'px'
-
-// 		var rect = elem.getBoundingClientRect()
-// 		var bottom = rect.bottom
-// 		var height = window.innerHeight
-
-// 		if (height - bottom < 20)
-// 			clearInterval(id)
-// 	}
-
-// 	var id = setInterval(frame, 0.25)
-// }
-
