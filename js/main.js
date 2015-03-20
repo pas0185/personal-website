@@ -1,6 +1,6 @@
 function tweenaway() {
 	var elem = document.getElementById("welcome")
-	TweenMax.to(elem, 2, {bottom:20})
+	TweenMax.to(elem, 2, {bottom:20, ease: Elastic.easeOut})
 }
 
 // function dropWelcomeText() {

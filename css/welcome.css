@@ -22,3 +22,19 @@ html {
 	right: 40px;
 }
 
+#social {
+	padding: 25px;
+	float: right;
+}
+svg {
+	fill: white;
+}
+.icon {
+/*	background: white;
+	color: #589353;
+	fill: #589353;*/
+	height: 50px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: 0;
+}
