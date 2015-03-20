@@ -51,7 +51,13 @@ function launchCursorFollower() {
 
 		console.log("x = " + tempX + ", y = " + tempY)
 
-		deg++
+		var rect = winston.getBoundingClientRect()
+
+		var deltaX = tempX - rect.right
+		var deltaY = tempY - rect.top
+		
+		var rad = Math.atan2(tempX, tempY); // In radians
+		var deg = rad * (180 / Math.PI)
 
 		// Set rotation of winston
 
