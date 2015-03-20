@@ -3,58 +3,14 @@ body {
 	margin: 0;
   font-weight: normal;
   font-family: "Lato", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-  /*-webkit-font-smoothing: antialiased;*/
 }
 
 .container {
-
-/*font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;*/
-/*font-family: ‘Arial Black’, Gadget, sans-serif;*/
-/*font-family: Verdana, Geneva, sans-serif;*/
-/*font-family: ‘Lucida Console’, Monaco, monospace;*/
-/*font-family: "Lato", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
 	max-width: 960px;
 	margin: auto 15%;
 }
 
-a {
-  color: red;
-}
-
-section.module:last-child {
-	margin-bottom: 0;
-}
-
-section.module.h2 {
-	margin-bottom: 40px;
-	font-size: 30px;
-  font-weight: normal;
-}
-
-section.module.p {
-	margin-bottom: 40px;
-	font-size: 16px;
-	font-weight: 300;
-}
-
-section.module p:last-child {
-  margin-bottom: 0;
-}
-
-/* Section - Text Content */
-section.module.content {
-  background-color: white;
-  padding: 60px 50px;
-}
-section.module.content h2 {
-  font-weight: normal;
-  text-align: center;
-}
-
-/* Section - Visual Contact */
-
 section.module.parallax {
-  font-weight: normal;
   height: 80%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -62,21 +18,16 @@ section.module.parallax {
   background-size: cover;
   padding: 5%;
 }
-section.module.parallax h1 {
-  font-weight: normal;
-  position: relative;
-  vertical-align: center;
-  text-align: center;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+section.module.content {
+  background-color: white;
+  padding: 60px 50px;
 }
-section.module.parallax h2 {
-  color: white;
-  font-weight: normal;
-  vertical-align: center;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+
+/*******************/
+/* Parallax images */
+/*******************/
+
 section.module.parallax-1 {
     color: white;
 
