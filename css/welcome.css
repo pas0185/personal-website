@@ -25,6 +25,13 @@ body {
 	position: relative;
 }
 
+
+#winston-head {
+	margin: 300px;
+	height: 150px;
+	width: 150px;
+}
+
 #welcome {
 	font-size: 10em;
 	color: white;
