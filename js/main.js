@@ -8,7 +8,7 @@ function tweenaway() {
 	TweenMax.staggerTo(".icon", 2, {opacity:1, x:0, delay:2.5})
 
 	// Winston Head
-	launchCursorFollower()
+	// launchCursorFollower()
 }
 
 function launchCursorFollower() {
