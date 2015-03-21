@@ -29,7 +29,6 @@ body {
 	position: relative;
 }
 
-
 #winston-head {
 	margin: 300px;
 	height: 150px;
@@ -58,17 +57,38 @@ body {
 }
 
 /*********************/
-/**  PORTFOLIO PANE **/
+/** CAMPUSFEED PANE **/
 /*********************/
+#campusfeed-pane {
+	height: 60vh;
+	width: 100vw;
+
+	position: relative;
+}
+
 .top-divider {
-	background: #0b87e0;
+	background: #33B5E5;
 	height: 1vh;
 }
 
-.right-paragraph {
-	padding: 25px;
-	width: 60%;
-	float: right;
+.container-left {
+	position: absolute;
+
+	width: 50%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+
+	vertical-align: middle;
+}
+.container-right {
+	width: 50%;
+	margin: 0 0 0 50%;
+}
+
+div.container-left img {
+	max-width: 80%;
+	max-height: 80%;
 }
 
 p {
@@ -76,11 +96,6 @@ p {
 	padding-bottom: 10px;
 	color: white;
 	font-size: 3vh;
-}
-
-#campusfeed {
-	height: 60vh;
-	width: 100vw;
 }
 
 #synchrogrid {
