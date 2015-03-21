@@ -1,9 +1,13 @@
+
+/*winston-collar-red#871e2c*/
+
 html { 
   font-family: BebasNeue;
 }
 
 body {
 	margin: 0;
+	background: #696969;
 }
 @font-face {
 	font-family: BebasNeue;
@@ -53,12 +57,34 @@ body {
 	opacity: 0;
 }
 
-/***********/
-/**  PANE **/
-/***********/
-
-#pane-2 {
-	height: 80vh;
-	background: red;
+/*********************/
+/**  PORTFOLIO PANE **/
+/*********************/
+.top-divider {
+	background: #0b87e0;
+	height: 1vh;
 }
 
+.right-paragraph {
+	padding: 25px;
+	width: 60%;
+	float: right;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 3vh;
+}
+
+#campusfeed {
+	height: 60vh;
+	width: 100vw;
+}
+
+#synchrogrid {
+	/*background: #EF4136;*/
+	height: 60vh;
+	width: 100vw;
+}
