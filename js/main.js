@@ -1,7 +1,7 @@
 function tweenaway() {
 
 	// Welcome Text
-	var welcome = document.getElementById("welcome")
+	var welcome = document.getElementById("welcome-text")
 	TweenMax.to(welcome, 2, {right:40, ease: Elastic.easeOut, delay:0.5})
 
 	// Social Icon
