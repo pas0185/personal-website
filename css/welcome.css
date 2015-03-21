@@ -59,8 +59,18 @@ body {
 /*********************/
 /** CAMPUSFEED PANE **/
 /*********************/
+.title {
+	text-align: center;
+	font-size: 8vh;
+	color: #33B5E5;
+}
+
+.title h1 {
+	margin: 5vh;
+}
+
 #campusfeed-pane {
-	height: 60vh;
+	display: inline-block;
 	width: 100vw;
 
 	position: relative;
@@ -89,6 +99,7 @@ body {
 
 p {
 	font-family: 'Ubuntu', sans-serif;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	color: white;
 	font-size: 2.5vh;
