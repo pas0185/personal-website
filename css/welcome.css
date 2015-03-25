@@ -40,7 +40,6 @@ p {
 /** HEADER PANE **/
 /*****************/
 header {
-	/*height: 10vh;*/
 	background: #000000;
 	opacity: 0.5;
 	position: fixed;
@@ -58,10 +57,23 @@ header {
 /** FOOTER PANE **/
 /*****************/
 #footer {
-	height: 20vh;
-	background: white;
+	background: #444444;
+	padding: 
 }
 
+#social-group {
+	width: 33.333%;
+	padding: 10px;
+	text-align: left;
+}
+
+#social-group img {
+	height: 40px;
+	/*margin: 10px;*/
+	/*margin-left: auto;*/
+	/*margin-right: 15px;*/
+	/*opacity: 0;*/
+}
 
 /******************/
 /** WELCOME PANE **/
@@ -75,30 +87,11 @@ header {
 	background-size: cover;
 }
 
-#winston-head {
-	margin: 300px;
-	height: 150px;
-	width: 150px;
-}
-
 #welcome h1 {
 	color: white;
 	position: absolute;
 	bottom: 20px;
 	right: 1500px;
-}
-
-#social-group {
-	padding: 10px;
-	float: right;
-}
-
-#social-group img {
-	height: 50px;
-	margin: 10px;
-	margin-left: auto;
-	margin-right: 15px;
-	opacity: 0;
 }
 
 /*********************/
