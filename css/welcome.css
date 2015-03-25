@@ -15,9 +15,9 @@ body {
 	src: url("../fonts/bebas/BebasNeue Book.otf");
 }
 
-/*****************/
-/** NORMAL PANE **/
-/*****************/
+/**********/
+/** PANE **/
+/**********/
 
 .pane {
 	/*position: relative;*/
@@ -61,6 +61,14 @@ p {
 	height: 10vh;
 	background: #aaaaaa;
 	opacity: 0.5
+}
+
+/*****************/
+/** FOOTER PANE **/
+/*****************/
+#footer {
+	height: 20vh;
+	background: white;
 }
 
 
