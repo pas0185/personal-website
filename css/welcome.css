@@ -20,11 +20,12 @@ body {
 /*****************/
 
 .pane {
-	position: relative;
+	/*position: relative;*/
 	width: 100vw;
 	display: inline-block;
 }
 .top-divider {
+	top-margin: 0;
 	height: 1vh;
 }
 
@@ -50,13 +51,18 @@ p {
 	padding-bottom: 10px;
 	color: white;
 	font-size: 2.5vh;
+	margin: 10px;
 }
 
-img {
-	margin: 5% 10%;
-	width: 80%;
-	height: 80%;
+/*****************/
+/** HEADER PANE **/
+/*****************/
+#header {
+	height: 10vh;
+	background: #aaaaaa;
+	opacity: 0.5
 }
+
 
 /******************/
 /** WELCOME PANE **/
@@ -89,7 +95,7 @@ img {
 	float: right;
 }
 
-.icon {
+#social-group img {
 	height: 50px;
 	margin: 10px;
 	margin-left: auto;
@@ -107,6 +113,16 @@ img {
 
 #campusfeed h1 {
 	color: #33B5E5;
+}
+
+#campusfeed a {
+	color: #33B5E5;
+}
+
+#campusfeed img {
+	margin: 5% 10%;
+	width: 80%;
+	height: 80%;
 }
 
 /**********************/
