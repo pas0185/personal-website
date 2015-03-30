@@ -58,21 +58,17 @@ header {
 /*****************/
 #footer {
 	background: #444444;
-	padding: 
+	padding: 20px 50px;
 }
 
 #social-group {
 	width: 33.333%;
-	padding: 10px;
 	text-align: left;
 }
 
 #social-group img {
-	height: 40px;
-	/*margin: 10px;*/
-	/*margin-left: auto;*/
-	/*margin-right: 15px;*/
-	/*opacity: 0;*/
+	height: 50px;
+	margin: 8px;
 }
 
 /******************/
