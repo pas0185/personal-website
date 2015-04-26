@@ -69,9 +69,29 @@ header {
 }
 
 .panel-third {
-	width: 33%;
+	width: 33vw; 		/* Is using View Width ok? */
+
 	text-align: center;
 	display: inline-block;
+}
+
+.large-icon {
+	margin: 0 auto;
+
+	width: 20vw;
+	height: 20vw;
+	background-size:cover;
+  	/*background-repeat: no-repeat;*/
+}
+
+.win {
+	background-image: url(../img/windows-flag.png);
+}
+.ios {
+	background-image: url(../img/iphone-logo.png);
+}
+.web {
+	background-image: url(../img/intenet-globe.png);
 }
 
 .button {
