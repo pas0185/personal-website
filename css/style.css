@@ -8,6 +8,10 @@ body {
 	background: #696969;
 }
 
+a {
+	color: #ff2222;
+}
+
 h1 {
 	font-size: 15vh;
 	margin: 5vh;
@@ -17,8 +21,7 @@ h1 {
 
 p {
 	font-family: 'Ubuntu', sans-serif;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin: 0 auto;
 	color: white;
 	font-size: 1.3em;
 	margin: 10px;
@@ -38,7 +41,7 @@ p {
 }
 
 .pane {
-	/*position: relative;*/
+/* 	position: relative; */
 	width: 100vw;
 	display: inline-block;
 }
@@ -65,23 +68,16 @@ header {
 /** SERVICES PANE **/
 /*******************/
 #services {
-	/*background: red;*/
+	
 }
 
 .panel-third {
 	width: 33vw; 		/* Is using View Width ok? */
+	height: 100%;
 
 	text-align: center;
+	vertical-align: top;
 	display: inline-block;
-}
-
-.large-icon {
-	margin: 0 auto;
-
-	width: 20vw;
-	height: 20vw;
-	background-size:cover;
-  	/*background-repeat: no-repeat;*/
 }
 
 .win {
@@ -113,10 +109,19 @@ header {
    color: white;
    font-size: 40px;
    text-decoration: none;
-   vertical-align: middle;
-
+   width: 80%;
+   position: relative;
    margin: 20px;
 }
+
+.large-icon {
+	margin: 0 auto;
+
+	width: 20vw;
+	height: 20vw;
+	background-size:cover;
+}
+
 .button:hover {
    border-top-color: #941919;
    background: #941919;
