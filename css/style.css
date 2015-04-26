@@ -30,6 +30,13 @@ p {
 	margin: 0 auto;
 }
 
+.right {
+	text-align: right;;
+	width: 33.333%;
+	margin: 0 0 0 auto;
+	padding: 16px;
+}
+
 .pane {
 	/*position: relative;*/
 	width: 100vw;
@@ -43,14 +50,61 @@ header {
 	background: #000000;
 	opacity: 0.5;
 	position: fixed;
-	padding: 20px 50px;
+	height: 15vh;
+	/*padding: 20px 50px;*/
 }
 
 .patrick-logo {
 	text-decoration: none;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: white;
 	font-size: 3em;
+}
+
+/*******************/
+/** SERVICES PANE **/
+/*******************/
+#services {
+	/*background: red;*/
+}
+
+.panel-third {
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+}
+
+.button {
+   border-top: 1px solid #e8b5b5;
+   background: #ed6666;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c91010), to(#ed6666));
+   background: -webkit-linear-gradient(top, #c91010, #ed6666);
+   background: -moz-linear-gradient(top, #c91010, #ed6666);
+   background: -ms-linear-gradient(top, #c91010, #ed6666);
+   background: -o-linear-gradient(top, #c91010, #ed6666);
+   padding: 19.5px 39px;
+   -webkit-border-radius: 26px;
+   -moz-border-radius: 26px;
+   border-radius: 26px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 40px;
+   text-decoration: none;
+   vertical-align: middle;
+
+   margin: 20px;
+}
+.button:hover {
+   border-top-color: #941919;
+   background: #941919;
+   color: #ccc;
+}
+.button:active {
+   border-top-color: #700404;
+   background: #700404;
 }
 
 /*****************/
@@ -58,7 +112,7 @@ header {
 /*****************/
 #footer {
 	background: #444444;
-	padding: 20px 50px;
+	/*padding: 20px 50px;*/
 }
 
 #social-group {
@@ -87,7 +141,7 @@ header {
 	color: white;
 	position: absolute;
 	bottom: 20px;
-	right: 1500px;
+	/*right: 1500px;*/
 }
 
 /*********************/
